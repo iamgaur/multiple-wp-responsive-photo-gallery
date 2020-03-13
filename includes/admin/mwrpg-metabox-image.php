@@ -55,8 +55,6 @@ function mwrp_gallery_meta_save($post_id, $post){
 	if(get_post_type($post_id)=='mwrp_gallery'){
 		
 		// Submit meta data into mwrpg_images key
-		$mwrpg_images = array_map( 'esc_attr', $_POST['mwrpg_images'] );
-		
-		update_post_meta($post_id, 'mwrpg_images', $_POST['mwrpg_images']);
+		update_post_meta($post_id, 'mwrpg_images', filter_var_array($_POST['mwrpg_images'],FILTER_SANITIZE_NUMBER_INT));
 	}
 } 
