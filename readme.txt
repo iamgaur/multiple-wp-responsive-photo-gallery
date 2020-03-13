@@ -30,5 +30,5 @@ This plugin include 3 main responsive image layout -
 == Frequently Asked Questions ==
 = 1. How can i create gallery =
 
-Creating photo gallery very simple. On the left menu select NG Gallery > Add new.
+Creating photo gallery very simple. On the left menu select MWRP Gallery > Add new.
 Enter you title and upload multiple images 
