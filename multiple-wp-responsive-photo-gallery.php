@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Multiple WP Responsive Photo Gallery
- * Plugin URI:        https://github.com/navidev99/ng-wp-gallery
+ * Plugin URI:        https://github.com/navidev99/multiple-wp-responsive-photo-gallery
  * Description:       This plugin provide multiple responsive photo gallery layouts
  * Version:           1.0
  * Requires at least: 4.*
